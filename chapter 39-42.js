@@ -125,7 +125,41 @@
 // let result = vowelElimination();
 // document.write("Before: " + userInput + "<br />" + "After: " + result)
 
-// Question 7 
+// Question 7 Write a function with switch statement to count the number of
+// occurrences of any two vowels in succession in a line of text.
+// For example, in the sentence
+// “Pleases read this application and give me gratuity”
+// Such occurrences are ea, ea, ui.
+// answer:
+// let str = "Pleases read this application and give me gratuity";
+// let count = 0;
+// let character = [];
+// function findingVowel(string) {
+//     for (let i = 0; i < string.length; i++) {
+//         let firstChar = string[i];
+//         let secondChar = string[i + 1];
+//         if (checkingVowel(firstChar) && checkingVowel(secondChar)) {
+//             count++;
+//             character.push(firstChar + secondChar);
+//         }
+//     }
+
+// }
+// findingVowel(str)
+// function checkingVowel(char) {
+//     switch (char) {
+//         case "a":
+//         case "e":
+//         case "i":
+//         case "o":
+//         case "u":
+//             return true;
+//         default:
+//             return false;
+//     }
+// }
+
+// document.write("the number of occurences are: " + count + "<br />" + "letters are: " +character)
 
 // Question 8 The distance between two cities (in km.) is input through the
 // keyboard. Write four functions to convert and print this
